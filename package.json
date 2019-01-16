@@ -1,5 +1,6 @@
 {
   "name": "angular-schema-form-datepicker",
+  "main": "bootstrap-datepicker.min.js",
   "version": "0.4.1",
   "description": "Datepicker add-on for schema form",
   "scripts": {
@@ -7,6 +8,10 @@
   },
   "author": "Textalk",
   "license": "MIT",
+  "dependencies": {
+    "pickadate": "~3.5.3",
+    "angular-schema-form": ">= 0.8"
+  },
   "devDependencies": {
     "chai": "^1.9.0",
     "coveralls": "^2.11.0",
@@ -29,6 +34,15 @@
     "phantomjs-prebuilt": "^2.1.7",
     "sinon": "^1.9.0",
     "sinon-chai": "^2.5.0",
-    "streamqueue": "0.0.5"
-  }
+    "streamqueue": "0.0.5",
+    "angular-mocks": ">= 1.2"
+  },
+  "keywords": [
+    "angular-schema-form",
+    "schema-form",
+    "form",
+    "json",
+    "json-schema",
+    "schema"
+  ]
 }

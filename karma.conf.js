@@ -10,13 +10,13 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'bower_components/jquery/dist/jquery.min.js',
-      'bower_components/angular/angular.js',
-      'bower_components/angular-mocks/angular-mocks.js',
-      'bower_components/objectpath/lib/ObjectPath.js',
-      'bower_components/tv4/tv4.js',
-      'bower_components/angular-schema-form/dist/schema-form.js',
-      'bower_components/angular-schema-form/dist/bootstrap-decorator.min.js',
+      'node_modules/jquery/dist/jquery.js',
+      'node_modules/angular/angular.js',
+      'node_modules/angular-mocks/angular-mocks.js',
+      'node_modules/objectpath/lib/ObjectPath.js',
+      'node_modules/tv4/tv4.js',
+      'node_modules/angular-schema-form/dist/schema-form.js',
+      'node_modules/angular-schema-form/dist/bootstrap-decorator.js',
       'src/*.js',
       'src/**/*.html',
       'test/tests.js'
