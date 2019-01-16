@@ -27,9 +27,9 @@ gulp.task('minify', function() {
   stream.queue(gulp.src('./src/*.js'));
 
   stream.done()
-        .pipe(concat('bootstrap-datepicker.min.js'))
+        .pipe(concat('angular-schema-form-datepicker.min.js'))
         .pipe(uglify())
-        .pipe(gulp.dest('.'));
+        .pipe(gulp.dest('./dist'));
 
 });
 
@@ -45,8 +45,8 @@ gulp.task('non-minified-dist', function() {
   stream.queue(gulp.src('./src/*.js'));
 
   stream.done()
-        .pipe(concat('bootstrap-datepicker.js'))
-        .pipe(gulp.dest('.'));
+        .pipe(concat('angular-schema-form-datepicker.js'))
+        .pipe(gulp.dest('./dist'));
 
 });
 

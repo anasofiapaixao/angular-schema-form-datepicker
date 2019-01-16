@@ -1,6 +1,6 @@
 {
   "name": "angular-schema-form-datepicker",
-  "main": "bootstrap-datepicker.min.js",
+  "main": "dist/angular-schema-form-datepicker.js",
   "version": "0.4.1",
   "description": "Datepicker add-on for schema form",
   "scripts": {
